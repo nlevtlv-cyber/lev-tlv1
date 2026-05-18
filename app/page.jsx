@@ -18,8 +18,7 @@ const copy = {
     whatsapp: "WhatsApp",
     eyebrow: "Boutique Real Estate Advisory",
     heroTitle: "Real Estate in Tel Aviv. Differently considered.",
-    heroText:
-      "Private advisory for selected properties, projects, investments and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.",
+    heroText: "Private advisory for selected properties, projects, investments and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.",
     cta1: "Schedule a Consultation",
     cta2: "Explore Tel Aviv",
     heroSmall: "Melchett 70, Tel Aviv · WhatsApp +972 52 660 4099",
@@ -39,14 +38,13 @@ const copy = {
     neighTitle: "Selected Tel Aviv Areas",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
     neighborhoodsCards: [
-      { name: "Neve Tzedek", text: "Historic elegance, quiet luxury and architectural heritage.", image: "/images/neighborhood-neve.jpg" },
-      { name: "Rothschild & Lev TLV", text: "The cultural and financial heart of the city.", image: "/images/neighborhood-rothschild.jpg" },
-      { name: "Old North", text: "Peaceful streets, sea breeze and residential calm.", image: "/images/neighborhood-oldnorth.jpg" }
+      { className: "neve", name: "Neve Tzedek", text: "Historic elegance, quiet luxury and architectural heritage." },
+      { className: "rothschild", name: "Rothschild & Lev TLV", text: "The cultural and financial heart of Tel Aviv." },
+      { className: "oldnorth", name: "Old North", text: "Peaceful streets, sea breeze and residential calm." }
     ],
     offEyebrow: "Off Market Access",
     offTitle: "Selected. Not published.",
-    offText:
-      "Some of the most desirable properties in Tel Aviv are never publicly listed. This is not a marketplace. This is access.",
+    offText: "Some of the most desirable properties in Tel Aviv are never publicly listed. This is not a marketplace. This is access.",
     contactEyebrow: "Contact",
     contactTitle: "Let’s talk about Tel Aviv",
     contactText: "Discreet advisory for buyers, investors, owners and relocation.",
@@ -64,8 +62,7 @@ const copy = {
     whatsapp: "WhatsApp",
     eyebrow: "Conseil immobilier boutique",
     heroTitle: "L’immobilier à Tel Aviv. Pensé autrement.",
-    heroText:
-      "Conseil privé pour des biens sélectionnés, des projets, des investissements et des décisions de vie dans les quartiers les plus recherchés de Tel Aviv.",
+    heroText: "Conseil privé pour des biens sélectionnés, des projets, des investissements et des décisions de vie dans les quartiers les plus recherchés de Tel Aviv.",
     cta1: "Prendre rendez-vous",
     cta2: "Explorer Tel Aviv",
     heroSmall: "70 rue Melchett, Tel Aviv · WhatsApp +972 52 660 4099",
@@ -85,14 +82,13 @@ const copy = {
     neighTitle: "Quartiers sélectionnés de Tel Aviv",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
     neighborhoodsCards: [
-      { name: "Neve Tzedek", text: "Élégance historique, luxe discret et patrimoine architectural.", image: "/images/neighborhood-neve.jpg" },
-      { name: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de la ville.", image: "/images/neighborhood-rothschild.jpg" },
-      { name: "Old North", text: "Rues calmes, proximité de la mer et atmosphère résidentielle.", image: "/images/neighborhood-oldnorth.jpg" }
+      { className: "neve", name: "Neve Tzedek", text: "Élégance historique, luxe discret et patrimoine architectural." },
+      { className: "rothschild", name: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de Tel Aviv." },
+      { className: "oldnorth", name: "Old North", text: "Rues calmes, proximité de la mer et atmosphère résidentielle." }
     ],
     offEyebrow: "Accès off-market",
     offTitle: "Sélectionné. Non publié.",
-    offText:
-      "Certains des biens les plus recherchés à Tel Aviv ne sont jamais publiés. Ce n’est pas une place de marché. C’est un accès privilégié.",
+    offText: "Certains des biens les plus recherchés à Tel Aviv ne sont jamais publiés. Ce n’est pas une place de marché. C’est un accès privilégié.",
     contactEyebrow: "Contact",
     contactTitle: "Parlons de Tel Aviv",
     contactText: "Conseil discret pour acheteurs, investisseurs, propriétaires et relocalisation.",
@@ -110,8 +106,7 @@ const copy = {
     whatsapp: "וואטסאפ",
     eyebrow: "ייעוץ נדל״ן בוטיק",
     heroTitle: "נדל״ן בתל אביב. בגישה אחרת.",
-    heroText:
-      "ליווי פרטי לנכסים נבחרים, פרויקטים, השקעות והחלטות מגורים בשכונות המבוקשות של תל אביב.",
+    heroText: "ליווי פרטי לנכסים נבחרים, פרויקטים, השקעות והחלטות מגורים בשכונות המבוקשות של תל אביב.",
     cta1: "קביעת פגישה",
     cta2: "לגלות את תל אביב",
     heroSmall: "מלצ׳ט 70, תל אביב · וואטסאפ +972 52 660 4099",
@@ -131,14 +126,13 @@ const copy = {
     neighTitle: "אזורים נבחרים בתל אביב",
     neighText: "נווה צדק · רוטשילד ולב TLV · הצפון הישן",
     neighborhoodsCards: [
-      { name: "נווה צדק", text: "אלגנטיות היסטורית, יוקרה שקטה ואדריכלות ייחודית.", image: "/images/neighborhood-neve.jpg" },
-      { name: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של תל אביב.", image: "/images/neighborhood-rothschild.jpg" },
-      { name: "הצפון הישן", text: "רחובות שקטים, קרבה לים ואווירת מגורים איכותית.", image: "/images/neighborhood-oldnorth.jpg" }
+      { className: "neve", name: "נווה צדק", text: "אלגנטיות היסטורית, יוקרה שקטה ואדריכלות ייחודית." },
+      { className: "rothschild", name: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של תל אביב." },
+      { className: "oldnorth", name: "הצפון הישן", text: "רחובות שקטים, קרבה לים ואווירת מגורים איכותית." }
     ],
     offEyebrow: "גישה לנכסים דיסקרטיים",
     offTitle: "נבחר. לא מפורסם.",
-    offText:
-      "חלק מהנכסים המבוקשים ביותר בתל אביב אינם מתפרסמים לציבור. זה לא לוח מודעות. זו גישה.",
+    offText: "חלק מהנכסים המבוקשים ביותר בתל אביב אינם מתפרסמים לציבור. זה לא לוח מודעות. זו גישה.",
     contactEyebrow: "צור קשר",
     contactTitle: "בואו נדבר על תל אביב",
     contactText: "ליווי דיסקרטי לקונים, משקיעים, בעלי נכסים ותושבי חוץ.",
@@ -166,15 +160,10 @@ export default function HomePage() {
           <a href="#neighborhoods">{t.navNeighborhoods}</a>
           <a href="#contact">{t.navContact}</a>
         </nav>
-
         <div className="nav-actions">
           <div className="lang-switch">
             {["en", "fr", "he"].map((code) => (
-              <button
-                key={code}
-                className={lang === code ? "active" : ""}
-                onClick={() => setLang(code)}
-              >
+              <button key={code} className={lang === code ? "active" : ""} onClick={() => setLang(code)}>
                 {code.toUpperCase()}
               </button>
             ))}
@@ -184,7 +173,6 @@ export default function HomePage() {
       </header>
 
       <section className="hero">
-        <img className="hero-bg" src="/images/hero.svg" alt="Luxury Tel Aviv skyline" />
         <div className="hero-content">
           <div className="eyebrow">{t.eyebrow}</div>
           <h1>{t.heroTitle}</h1>
@@ -207,9 +195,7 @@ export default function HomePage() {
               <p><strong>{t.aboutSign}</strong></p>
             </div>
           </div>
-          <div className="image-card">
-            <img src="/images/about.svg" alt="Luxury Tel Aviv real estate advisory" />
-          </div>
+          <div className="about-visual" />
         </div>
       </section>
 
@@ -217,14 +203,11 @@ export default function HomePage() {
         <div className="container center">
           <div className="eyebrow">{t.neighEyebrow}</div>
           <h2>{t.neighTitle}</h2>
-          <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>
-            {t.neighText}
-          </p>
-
+          <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>{t.neighText}</p>
           <div className="neighborhood-grid">
             {t.neighborhoodsCards.map((item) => (
-              <article className="neighborhood-card" key={item.name}>
-                <img src={item.image} alt={item.name} />
+              <article className={`neighborhood-card ${item.className}`} key={item.name}>
+                <div className="neighborhood-art" />
                 <div className="neighborhood-card-text">
                   <h3>{item.name}</h3>
                   <p>{item.text}</p>
@@ -248,13 +231,11 @@ export default function HomePage() {
           <div className="eyebrow">{t.contactEyebrow}</div>
           <h2>{t.contactTitle}</h2>
           <p className="muted">{t.contactText}</p>
-
           <div className="contact-lines">
             <div>{t.office}: {address[lang]}</div>
             <div>{t.officePhone}: {officePhone}</div>
             <div>WhatsApp: +972 52 660 4099</div>
           </div>
-
           <form className="form">
             <input className="input" placeholder={t.name} />
             <input className="input" placeholder={t.phone} />
