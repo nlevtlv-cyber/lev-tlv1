@@ -9,7 +9,7 @@ const neighborhoods = [
     image: "/images/neve.svg"
   },
   {
-    name: "Rothschild & Lev TLV",
+    name: "Rothschild & Lev HaIr",
     text: "Urban energy, Bauhaus architecture and the cultural heart of Tel Aviv.",
     image: "/images/rothschild.svg"
   },
@@ -96,26 +96,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="neighborhoods" className="section">
-        <div className="container">
-          <div className="eyebrow">Explore Neighborhoods</div>
-          <h2>The architecture of daily life</h2>
-          <p className="muted" style={{ maxWidth: 680, lineHeight: 1.8 }}>
-            Tel Aviv is not one market. It is a collection of distinct lifestyles.
-          </p>
-          <div className="cards">
-            {neighborhoods.map((item) => (
-              <article className="card" key={item.name}>
-                <img src={item.image} alt={item.name} />
-                <div className="card-content">
-                  <h3>{item.name}</h3>
-                  <p className="muted">{item.text}</p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      
+<section id="neighborhoods" className="section">
+  <div className="container center">
+    <div className="eyebrow">Neighborhoods</div>
+    <h2>Selected Tel Aviv Areas</h2>
+    <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>
+      Neve Tzedek · Rothschild & Lev TLV · Old North
+    </p>
+
+    <div style={{
+      borderRadius:"28px",
+      overflow:"hidden",
+      border:"1px solid rgba(216,180,106,.22)",
+      boxShadow:"0 30px 80px rgba(0,0,0,.35)"
+    }}>
+      <img
+        src="/images/neighborhoods-ai.png"
+        alt="Tel Aviv Neighborhoods"
+        style={{width:"100%",display:"block"}}
+      />
+    </div>
+  </div>
+</section>
+
 
       <section className="section center color-band">
         <div className="container">
