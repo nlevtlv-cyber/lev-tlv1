@@ -30,9 +30,9 @@ const copy = {
     neighEyebrow: "Neighborhoods", neighTitle: "Selected Tel Aviv Areas",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
     neighborhoodsCards: [
-      { name: "Neve Tzedek", text: "Historic elegance, quiet luxury and architectural heritage.", image: "/images/neve-tzedek.jpg" },
-      { name: "Rothschild & Lev TLV", text: "The cultural and financial heart of Tel Aviv.", image: "/images/rothschild-lev-tlv.jpg" },
-      { name: "Old North", text: "Peaceful streets, sea breeze and residential calm.", image: "/images/old-north.jpg" }
+      { className:"neve", name: "Neve Tzedek", text: "Historic elegance, quiet luxury and architectural heritage." },
+      { className:"rothschild", name: "Rothschild & Lev TLV", text: "The cultural and financial heart of Tel Aviv." },
+      { className:"oldnorth", name: "Old North", text: "Peaceful streets, sea breeze and residential calm." }
     ],
     offEyebrow: "Off Market Access", offTitle: "Selected. Not published.",
     offText: "Some of the most desirable properties in Tel Aviv are never publicly listed. This is not a marketplace. This is access.",
@@ -60,9 +60,9 @@ const copy = {
     neighEyebrow: "Quartiers", neighTitle: "Quartiers sélectionnés de Tel Aviv",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
     neighborhoodsCards: [
-      { name: "Neve Tzedek", text: "Élégance historique, luxe discret et patrimoine architectural.", image: "/images/neve-tzedek.jpg" },
-      { name: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de Tel Aviv.", image: "/images/rothschild-lev-tlv.jpg" },
-      { name: "Old North", text: "Rues calmes, proximité de la mer et atmosphère résidentielle.", image: "/images/old-north.jpg" }
+      { className:"neve", name: "Neve Tzedek", text: "Élégance historique, luxe discret et patrimoine architectural." },
+      { className:"rothschild", name: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de Tel Aviv." },
+      { className:"oldnorth", name: "Old North", text: "Rues calmes, proximité de la mer et atmosphère résidentielle." }
     ],
     offEyebrow: "Accès off-market", offTitle: "Sélectionné. Non publié.",
     offText: "Certains des biens les plus recherchés à Tel Aviv ne sont jamais publiés. Ce n’est pas une place de marché. C’est un accès privilégié.",
@@ -90,9 +90,9 @@ const copy = {
     neighEyebrow: "שכונות", neighTitle: "אזורים נבחרים בתל אביב",
     neighText: "נווה צדק · רוטשילד ולב TLV · הצפון הישן",
     neighborhoodsCards: [
-      { name: "נווה צדק", text: "אלגנטיות היסטורית, יוקרה שקטה ואדריכלות ייחודית.", image: "/images/neve-tzedek.jpg" },
-      { name: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של תל אביב.", image: "/images/rothschild-lev-tlv.jpg" },
-      { name: "הצפון הישן", text: "רחובות שקטים, קרבה לים ואווירת מגורים איכותית.", image: "/images/old-north.jpg" }
+      { className:"neve", name: "נווה צדק", text: "אלגנטיות היסטורית, יוקרה שקטה ואדריכלות ייחודית." },
+      { className:"rothschild", name: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של תל אביב." },
+      { className:"oldnorth", name: "הצפון הישן", text: "רחובות שקטים, קרבה לים ואווירת מגורים איכותית." }
     ],
     offEyebrow: "גישה לנכסים דיסקרטיים", offTitle: "נבחר. לא מפורסם.",
     offText: "חלק מהנכסים המבוקשים ביותר בתל אביב אינם מתפרסמים לציבור. זה לא לוח מודעות. זו גישה.",
@@ -162,11 +162,10 @@ export default function HomePage() {
           <div className="eyebrow">{t.neighEyebrow}</div>
           <h2>{t.neighTitle}</h2>
           <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>{t.neighText}</p>
-
           <div className="neighborhood-grid">
             {t.neighborhoodsCards.map((item) => (
-              <article className="neighborhood-card" key={item.name}>
-                <img src={item.image} alt={item.name} />
+              <article className={`neighborhood-card ${item.className}`} key={item.name}>
+                <div className="neighborhood-art" />
                 <div className="neighborhood-card-text">
                   <h3>{item.name}</h3>
                   <p>{item.text}</p>
