@@ -1,13 +1,27 @@
-const phone = "972544862214";
+const whatsappPhone = "972526604099";
+const officePhone = "+972 3 525 0880";
+const address = "Melchett 70, Tel Aviv";
 
 const neighborhoods = [
-  { name: "Neve Tzedek", text: "Historic elegance. Quiet luxury. Architectural heritage.", image: "/images/neve.svg" },
-  { name: "Rothschild", text: "Urban energy. Cultural density. Classic Bauhaus living.", image: "/images/rothschild.svg" },
-  { name: "Old North", text: "Refined residential living near the sea and parks.", image: "/images/oldnorth.svg" }
+  {
+    name: "Neve Tzedek",
+    text: "Historic elegance. Quiet luxury. Architectural heritage.",
+    image: "/images/neve.svg"
+  },
+  {
+    name: "Rothschild & Lev HaIr",
+    text: "Urban energy, Bauhaus architecture and the cultural heart of Tel Aviv.",
+    image: "/images/rothschild.svg"
+  },
+  {
+    name: "Old North",
+    text: "Refined residential living near the sea and parks.",
+    image: "/images/oldnorth.svg"
+  }
 ];
 
 export default function HomePage() {
-  const whatsapp = `https://wa.me/${phone}?text=Hi%20LEV%20TLV%2C%20I%20would%20like%20to%20speak%20about%20real%20estate%20in%20Tel%20Aviv`;
+  const whatsapp = `https://wa.me/${whatsappPhone}?text=Hi%20LEV%20TLV%2C%20I%20would%20like%20to%20speak%20about%20real%20estate%20in%20Tel%20Aviv`;
 
   return (
     <main>
@@ -27,14 +41,14 @@ export default function HomePage() {
           <div className="eyebrow">Boutique Real Estate Advisory</div>
           <h1>Real Estate in Tel Aviv. Differently considered.</h1>
           <p className="lead muted">
-            Private advisory for curated properties, investments, and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.
+            Private advisory for selected properties, projects, investments and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.
           </p>
           <div className="actions">
             <a className="btn primary" href="#contact">Schedule a Consultation</a>
             <a className="btn" href="#neighborhoods">Explore Tel Aviv</a>
           </div>
           <p className="muted" style={{ marginTop: 24, fontSize: 14 }}>
-            נדל״ן בתל אביב. בגישה שקטה, מדויקת ואישית.
+            Melchett 70, Tel Aviv · WhatsApp +972 52 660 4099
           </p>
         </div>
       </section>
@@ -44,31 +58,36 @@ export default function HomePage() {
           <div>
             <div className="eyebrow">About LEV TLV</div>
             <h2>Real estate beyond listings</h2>
-            <p className="lead muted" style={{ margin: 0 }}>
-              LEV TLV is a boutique real estate advisory based in Tel Aviv, focused on selected properties, projects and exclusive opportunities across the city and the greater Dan region.
-            </p>
 
-            <div className="about-he">
-              <strong>עלינו</strong>
-              <br /><br />
-              משרד <strong>„נדל״ן לב ת״א”</strong> הוקם לפני כ־20 שנה ונחשב לאחד ממשרדי הנדל״ן הוותיקים והמובילים בתל אביב.
-              <br /><br />
-              המשרד מתמחה בשיווק נכסים ופרויקטים במרכז תל אביב, לצד טיפול בנכסים ייחודיים ובלעדיים ברחבי גוש דן.
-              <br /><br />
-              צוות „נדל״ן לב ת״א” הינו צוות בינלאומי, מנוסה ומקצועי, בעל התמחות רבת שנים בעבודה מול תושבי חוץ, משקיעים ולקוחות פרטיים מהארץ ומהעולם.
-              כלל אנשי הצוות דוברי עברית, אנגלית וצרפתית, ומשרדנו משתתף ומפרסם באופן שוטף בתערוכות נדל״ן בינלאומיות ברחבי העולם.
-              <br /><br />
-              אנו מאמינים כי רכישת או מכירת נכס היא אחת ההחלטות המשמעותיות ביותר בחיי לקוחותינו. לכן אנו מקפידים על שירות מקצועי, אמין ודיסקרטי, תוך שקיפות מלאה, ליווי אישי וחיסכון משמעותי בזמן ובטרחה.
-              <br /><br />
-              לאורך השנים זכינו ללוות מאות לקוחות מרוצים, אשר ממשיכים לבחור בנו פעם אחר פעם ולהפקיד בידינו נכסים ולקוחות חדשים — הן מישראל והן מחו״ל.
-              <br /><br />
-              בנוסף לפעילות התיווך, משרדנו מעניק שירותי ניהול והשכרה לטווח קצר באמצעות חברת <strong>SHORTY</strong>, הכוללים ליווי מלא מרגע קבלת הנכס, ריהוטו והכנתו לאירוח — ועד לניהול השוטף ברמה הגבוהה ביותר.
-              <br /><br />
-              כמו כן, משרדנו מטפל גם בהשכרה ובניהול נכסים לטווח ארוך.
-              <br /><br />
-              נשמח לעמוד לשירותכם, ללוות אתכם לאורך כל הדרך ולחלוק עמכם מהידע והניסיון הרב שצברנו — ללא כל התחייבות מצדכם.
-              <br /><br />
-              <strong>צוות נדל״ן לב תל אביב</strong>
+            <div className="about-box">
+              <p>
+                <strong>Lev Tel Aviv Real Estate</strong> was established approximately 20 years ago and is considered one of Tel Aviv’s long-standing and distinguished real estate offices.
+              </p>
+              <p>
+                The office specializes in marketing properties and projects in central Tel Aviv, with additional access to unique and exclusive properties across the greater Dan region.
+              </p>
+              <p>
+                Our team is international, experienced and professional, with extensive expertise in transactions involving foreign residents, investors and private clients from Israel and abroad.
+                The team speaks Hebrew, English and French, and the office regularly advertises and participates in international real estate exhibitions overseas.
+              </p>
+              <p>
+                We believe that buying or selling real estate is one of the most important decisions our clients make. For this reason, we are committed to professional, reliable and efficient service,
+                full transparency, personal guidance and significant saving of time and effort for our clients.
+              </p>
+              <p>
+                Over the years, we have had the privilege of serving many loyal clients who continue to work with us and refer both new properties and new clients from Israel and abroad.
+              </p>
+              <p>
+                In addition to brokerage services, our office also manages short-term apartment rentals through <strong>SHORTY</strong>, including full handling from receiving the property, furnishing it,
+                preparing it for guests and managing every detail of the guest experience.
+              </p>
+              <p>
+                We also handle long-term rentals and property management.
+              </p>
+              <p>
+                We would be pleased to assist you, guide you throughout the process and share the knowledge and experience we have accumulated — with no obligation on your part.
+              </p>
+              <p><strong>The Lev Tel Aviv Real Estate Team</strong></p>
             </div>
           </div>
           <div className="image-card">
@@ -113,7 +132,13 @@ export default function HomePage() {
           <div className="eyebrow">Contact</div>
           <h2>Let’s talk about Tel Aviv</h2>
           <p className="muted">Discreet advisory for buyers, investors, owners and relocation.</p>
-          <p className="phone-line">WhatsApp / Phone: +972 54 486 2214</p>
+
+          <div className="contact-lines">
+            <div>Office: {address}</div>
+            <div>Office Phone: {officePhone}</div>
+            <div>WhatsApp: +972 52 660 4099</div>
+          </div>
+
           <form className="form">
             <input className="input" placeholder="Name" />
             <input className="input" placeholder="Phone" />
@@ -125,7 +150,7 @@ export default function HomePage() {
       <footer className="footer">
         <div className="footer-inner">
           <div>© 2026 LEV TLV</div>
-          <div>+972 54 486 2214 · Boutique Real Estate Advisory · Tel Aviv</div>
+          <div>{address} · Office {officePhone} · WhatsApp +972 52 660 4099</div>
         </div>
       </footer>
     </main>
