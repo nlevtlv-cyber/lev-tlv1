@@ -38,6 +38,11 @@ const copy = {
     neighEyebrow: "Neighborhoods",
     neighTitle: "Selected Tel Aviv Areas",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
+    neighborhoodsCards: [
+      { name: "Neve Tzedek", text: "Historic elegance, quiet luxury and architectural heritage.", image: "/images/neighborhood-neve.jpg" },
+      { name: "Rothschild & Lev TLV", text: "The cultural and financial heart of the city.", image: "/images/neighborhood-rothschild.jpg" },
+      { name: "Old North", text: "Peaceful streets, sea breeze and residential calm.", image: "/images/neighborhood-oldnorth.jpg" }
+    ],
     offEyebrow: "Off Market Access",
     offTitle: "Selected. Not published.",
     offText:
@@ -79,6 +84,11 @@ const copy = {
     neighEyebrow: "Quartiers",
     neighTitle: "Quartiers sélectionnés de Tel Aviv",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
+    neighborhoodsCards: [
+      { name: "Neve Tzedek", text: "Élégance historique, luxe discret et patrimoine architectural.", image: "/images/neighborhood-neve.jpg" },
+      { name: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de la ville.", image: "/images/neighborhood-rothschild.jpg" },
+      { name: "Old North", text: "Rues calmes, proximité de la mer et atmosphère résidentielle.", image: "/images/neighborhood-oldnorth.jpg" }
+    ],
     offEyebrow: "Accès off-market",
     offTitle: "Sélectionné. Non publié.",
     offText:
@@ -120,6 +130,11 @@ const copy = {
     neighEyebrow: "שכונות",
     neighTitle: "אזורים נבחרים בתל אביב",
     neighText: "נווה צדק · רוטשילד ולב TLV · הצפון הישן",
+    neighborhoodsCards: [
+      { name: "נווה צדק", text: "אלגנטיות היסטורית, יוקרה שקטה ואדריכלות ייחודית.", image: "/images/neighborhood-neve.jpg" },
+      { name: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של תל אביב.", image: "/images/neighborhood-rothschild.jpg" },
+      { name: "הצפון הישן", text: "רחובות שקטים, קרבה לים ואווירת מגורים איכותית.", image: "/images/neighborhood-oldnorth.jpg" }
+    ],
     offEyebrow: "גישה לנכסים דיסקרטיים",
     offTitle: "נבחר. לא מפורסם.",
     offText:
@@ -205,17 +220,17 @@ export default function HomePage() {
           <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>
             {t.neighText}
           </p>
-          <div style={{
-            borderRadius:"28px",
-            overflow:"hidden",
-            border:"1px solid rgba(216,180,106,.22)",
-            boxShadow:"0 30px 80px rgba(0,0,0,.35)"
-          }}>
-            <img
-              src="/images/neighborhoods-ai.png"
-              alt="Tel Aviv Neighborhoods"
-              style={{width:"100%",display:"block"}}
-            />
+
+          <div className="neighborhood-grid">
+            {t.neighborhoodsCards.map((item) => (
+              <article className="neighborhood-card" key={item.name}>
+                <img src={item.image} alt={item.name} />
+                <div className="neighborhood-card-text">
+                  <h3>{item.name}</h3>
+                  <p>{item.text}</p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
