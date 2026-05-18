@@ -131,3 +131,51 @@ h3 { font-size: 28px; font-weight: 300; margin: 0 0 12px; }
   .footer-inner { flex-direction: column; }
   .logo { letter-spacing: .25em; }
 }
+
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(216,180,106,0.28);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+}
+
+.lang-switch button {
+  border: 0;
+  background: transparent;
+  color: rgba(247,243,234,0.68);
+  border-radius: 999px;
+  padding: 8px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.lang-switch button.active {
+  background: linear-gradient(135deg, #D8B46A, #F1D18B);
+  color: #101010;
+  font-weight: 700;
+}
+
+main[dir="rtl"] .about-box,
+main[dir="rtl"] .contact-lines {
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .nav-actions {
+    gap: 8px;
+  }
+  .lang-switch button {
+    padding: 7px 8px;
+    font-size: 11px;
+  }
+}
