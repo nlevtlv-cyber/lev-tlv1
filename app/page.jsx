@@ -9,7 +9,7 @@ const neighborhoods = [
     image: "/images/neve.svg"
   },
   {
-    name: "Rothschild & Lev HaIr",
+    name: "Rothschild & Lev TLV",
     text: "Urban energy, Bauhaus architecture and the cultural heart of Tel Aviv.",
     image: "/images/rothschild.svg"
   },

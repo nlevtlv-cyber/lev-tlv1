@@ -1,38 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071A1D"/>
-      <stop offset="0.58" stop-color="#18444A"/>
-      <stop offset="1" stop-color="#2b1d11"/>
-    </linearGradient>
-    <radialGradient id="r" cx="72%" cy="28%" r="55%">
-      <stop offset="0" stop-color="#D8B46A" stop-opacity="0.78"/>
-      <stop offset="1" stop-color="#D8B46A" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="b" cx="18%" cy="25%" r="46%">
-      <stop offset="0" stop-color="#66B7C9" stop-opacity="0.70"/>
-      <stop offset="1" stop-color="#66B7C9" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
-  </defs>
-  <rect width="1600" height="1100" fill="url(#g)"/>
-  <rect width="1600" height="1100" fill="url(#r)"/>
-  <rect width="1600" height="1100" fill="url(#b)"/>
-  <g opacity="0.34" filter="url(#blur)">
-    <circle cx="280" cy="815" r="250" fill="#66B7C9"/>
-    <circle cx="1250" cy="270" r="220" fill="#D8B46A"/>
-  </g>
-  <g>
-        <rect x="180" y="430" width="190" height="430" fill="#ffffff" opacity=".22"/>
-        <rect x="450" y="260" width="220" height="600" fill="#ffffff" opacity=".24"/>
-        <rect x="760" y="180" width="260" height="680" fill="#ffffff" opacity=".27"/>
-        <rect x="1110" y="390" width="180" height="470" fill="#ffffff" opacity=".22"/>
-        <path d="M0 760 C310 620 520 830 820 690 C1060 575 1240 620 1600 480 L1600 1100 L0 1100 Z" fill="#66B7C9" opacity="0.16"/>
-        </g>
-  <g opacity=".32">
-    <line x1="120" y1="880" x2="1450" y2="880" stroke="#ffffff" stroke-width="4"/>
-    <line x1="180" y1="930" x2="1320" y2="930" stroke="#D8B46A" stroke-width="3"/>
-  </g>
-  <text x="76" y="960" fill="#F7F3EA" opacity="0.85" font-family="Arial" font-size="58" letter-spacing="8">OLD NORTH</text>
-  <text x="82" y="1025" fill="#F7F3EA" opacity="0.58" font-family="Arial" font-size="28" letter-spacing="4">SEA / PARKS / RESIDENTIAL CALM</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#08171B"/>
+<stop offset="100%" stop-color="#05070A"/>
+</linearGradient>
+<radialGradient id="glow" cx="70%" cy="20%" r="60%">
+<stop offset="0%" stop-color="#69C5D8" stop-opacity="0.8"/>
+<stop offset="100%" stop-color="#69C5D8" stop-opacity="0"/>
+</radialGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+
+<rect width="1600" height="1100" fill="url(#bg)"/>
+<rect width="1600" height="1100" fill="url(#glow)"/>
+
+<g opacity="0.28" filter="url(#blur)">
+<circle cx="260" cy="780" r="220" fill="#D8B46A"/>
+<circle cx="1250" cy="240" r="240" fill="#ffffff"/>
+</g>
+
+<g opacity="0.22">
+<rect x="120" y="420" width="180" height="420" rx="12" fill="#ffffff"/>
+<rect x="340" y="260" width="250" height="580" rx="18" fill="#ffffff"/>
+<rect x="660" y="350" width="190" height="490" rx="16" fill="#ffffff"/>
+<rect x="930" y="180" width="290" height="660" rx="22" fill="#ffffff"/>
+<rect x="1280" y="420" width="170" height="420" rx="12" fill="#ffffff"/>
+</g>
+
+<path d="M0 770 C240 680 420 840 690 740 C930 650 1120 700 1600 520 L1600 1100 L0 1100 Z"
+fill="#D8B46A" opacity="0.14"/>
+
+<text x="90" y="930" fill="#F5F1E8" font-size="64" font-family="Arial" letter-spacing="8">OLD NORTH</text>
+<text x="92" y="990" fill="#F5F1E8" opacity="0.7" font-size="28" font-family="Arial" letter-spacing="3">SEA / PARKS / RESIDENTIAL CALM</text>
+<text x="92" y="1045" fill="#F5F1E8" opacity="0.38" font-size="20" font-family="Arial">Elegant residential atmosphere near the beach and green boulevards.</text>
 </svg>
