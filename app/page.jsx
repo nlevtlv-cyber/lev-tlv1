@@ -18,7 +18,8 @@ const copy = {
     whatsapp: "WhatsApp",
     eyebrow: "Boutique Real Estate Advisory",
     heroTitle: "Real Estate in Tel Aviv. Differently considered.",
-    heroText: "Private advisory for selected properties, projects, investments and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.",
+    heroText:
+      "Private advisory for selected properties, projects, investments and lifestyle-driven decisions in Tel Aviv’s most desirable neighborhoods.",
     cta1: "Schedule a Consultation",
     cta2: "Explore Tel Aviv",
     heroSmall: "Melchett 70, Tel Aviv · WhatsApp +972 52 660 4099",
@@ -27,22 +28,20 @@ const copy = {
     aboutText: [
       "Lev Tel Aviv Real Estate was established approximately 20 years ago and is considered one of Tel Aviv’s long-standing and distinguished real estate offices.",
       "The office specializes in marketing properties and projects in central Tel Aviv, with additional access to unique and exclusive properties across the greater Dan region.",
-      "Our team is international, experienced and professional, with extensive expertise in transactions involving foreign residents, investors and private clients from Israel and abroad. The team speaks Hebrew, English and French.",
-      "We believe that buying or selling real estate is one of the most important decisions our clients make. We are committed to professional, reliable and efficient service, full transparency and personal guidance.",
-      "In addition to brokerage services, our office also manages short-term apartment rentals through SHORTY and handles long-term rentals and property management."
+      "Our team is international, experienced and professional, with extensive expertise in transactions involving foreign residents, investors and private clients from Israel and abroad. The team speaks Hebrew, English and French, and the office regularly advertises and participates in international real estate exhibitions overseas.",
+      "We believe that buying or selling real estate is one of the most important decisions our clients make. For this reason, we are committed to professional, reliable and efficient service, full transparency, personal guidance and significant saving of time and effort for our clients.",
+      "In addition to brokerage services, our office also manages short-term apartment rentals through SHORTY, including full handling from receiving the property, furnishing it, preparing it for guests and managing every detail of the guest experience.",
+      "We also handle long-term rentals and property management.",
+      "We would be pleased to assist you, guide you throughout the process and share the knowledge and experience we have accumulated — with no obligation on your part."
     ],
     aboutSign: "The Lev Tel Aviv Real Estate Team",
     neighEyebrow: "Neighborhoods",
     neighTitle: "Selected Tel Aviv Areas",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
-    neighborhoodCards: [
-      { title: "Neve Tzedek", text: "The first neighborhood of Tel Aviv. Charming villas, boutique shops, and a unique historic atmosphere.", image: "/images/neve.jpg" },
-      { title: "Rothschild & Lev TLV", text: "The cultural and financial heart of the city. Iconic Bauhaus, green avenues, and vibrant urban living.", image: "/images/rothschild.jpg" },
-      { title: "Old North", text: "Peaceful streets and green views. A perfect blend of comfort, community, and convenience.", image: "/images/oldnorth.jpg" }
-    ],
     offEyebrow: "Off Market Access",
     offTitle: "Selected. Not published.",
-    offText: "Some of the most desirable properties in Tel Aviv are never publicly listed. This is not a marketplace. This is access.",
+    offText:
+      "Some of the most desirable properties in Tel Aviv are never publicly listed. This is not a marketplace. This is access.",
     contactEyebrow: "Contact",
     contactTitle: "Let’s talk about Tel Aviv",
     contactText: "Discreet advisory for buyers, investors, owners and relocation.",
@@ -60,7 +59,8 @@ const copy = {
     whatsapp: "WhatsApp",
     eyebrow: "Conseil immobilier boutique",
     heroTitle: "L’immobilier à Tel Aviv. Pensé autrement.",
-    heroText: "Conseil privé pour des biens sélectionnés, des projets, des investissements et des décisions de vie dans les quartiers les plus recherchés de Tel Aviv.",
+    heroText:
+      "Conseil privé pour des biens sélectionnés, des projets, des investissements et des décisions de vie dans les quartiers les plus recherchés de Tel Aviv.",
     cta1: "Prendre rendez-vous",
     cta2: "Explorer Tel Aviv",
     heroSmall: "70 rue Melchett, Tel Aviv · WhatsApp +972 52 660 4099",
@@ -69,22 +69,20 @@ const copy = {
     aboutText: [
       "Lev Tel Aviv Real Estate a été fondé il y a environ 20 ans et fait partie des agences immobilières historiques et reconnues de Tel Aviv.",
       "L’agence est spécialisée dans la commercialisation de biens et de projets au centre de Tel Aviv, avec un accès à des biens uniques et exclusifs dans toute la région du Gush Dan.",
-      "Notre équipe est internationale, expérimentée et professionnelle, avec une grande expertise dans les transactions avec des résidents étrangers, des investisseurs et des clients privés d’Israël et de l’étranger.",
-      "Nous offrons un service professionnel, fiable et efficace, avec transparence, accompagnement personnel et gain de temps.",
-      "En plus du courtage, notre agence gère également les locations de courte durée via SHORTY, ainsi que les locations longue durée et la gestion de biens."
+      "Notre équipe est internationale, expérimentée et professionnelle, avec une grande expertise dans les transactions avec des résidents étrangers, des investisseurs et des clients privés d’Israël et de l’étranger. L’équipe parle hébreu, anglais et français, et l’agence participe régulièrement à des salons immobiliers internationaux.",
+      "Nous considérons que l’achat ou la vente d’un bien immobilier est l’une des décisions les plus importantes de nos clients. C’est pourquoi nous offrons un service professionnel, fiable et efficace, avec transparence, accompagnement personnel et gain de temps.",
+      "En plus du courtage, notre agence gère également les locations de courte durée via SHORTY, de la réception du bien à son ameublement, sa préparation et sa gestion complète.",
+      "Nous traitons également les locations longue durée et la gestion de biens.",
+      "Nous serons heureux de vous accompagner, de vous conseiller et de partager notre expérience, sans engagement de votre part."
     ],
     aboutSign: "L’équipe Lev Tel Aviv Real Estate",
     neighEyebrow: "Quartiers",
     neighTitle: "Quartiers sélectionnés de Tel Aviv",
     neighText: "Neve Tzedek · Rothschild & Lev TLV · Old North",
-    neighborhoodCards: [
-      { title: "Neve Tzedek", text: "Le premier quartier de Tel Aviv. Villas charmantes, boutiques élégantes et atmosphère historique unique.", image: "/images/neve.jpg" },
-      { title: "Rothschild & Lev TLV", text: "Le cœur culturel et financier de la ville. Bauhaus iconique, avenues vertes et vie urbaine vibrante.", image: "/images/rothschild.jpg" },
-      { title: "Old North", text: "Rues paisibles et vues verdoyantes. Un équilibre parfait entre confort, communauté et proximité.", image: "/images/oldnorth.jpg" }
-    ],
     offEyebrow: "Accès off-market",
     offTitle: "Sélectionné. Non publié.",
-    offText: "Certains des biens les plus recherchés à Tel Aviv ne sont jamais publiés. Ce n’est pas une place de marché. C’est un accès privilégié.",
+    offText:
+      "Certains des biens les plus recherchés à Tel Aviv ne sont jamais publiés. Ce n’est pas une place de marché. C’est un accès privilégié.",
     contactEyebrow: "Contact",
     contactTitle: "Parlons de Tel Aviv",
     contactText: "Conseil discret pour acheteurs, investisseurs, propriétaires et relocalisation.",
@@ -102,7 +100,8 @@ const copy = {
     whatsapp: "וואטסאפ",
     eyebrow: "ייעוץ נדל״ן בוטיק",
     heroTitle: "נדל״ן בתל אביב. בגישה אחרת.",
-    heroText: "ליווי פרטי לנכסים נבחרים, פרויקטים, השקעות והחלטות מגורים בשכונות המבוקשות של תל אביב.",
+    heroText:
+      "ליווי פרטי לנכסים נבחרים, פרויקטים, השקעות והחלטות מגורים בשכונות המבוקשות של תל אביב.",
     cta1: "קביעת פגישה",
     cta2: "לגלות את תל אביב",
     heroSmall: "מלצ׳ט 70, תל אביב · וואטסאפ +972 52 660 4099",
@@ -111,22 +110,20 @@ const copy = {
     aboutText: [
       "משרד נדל״ן לב תל אביב הוקם לפני כ־20 שנה ונחשב לאחד ממשרדי הנדל״ן הוותיקים והמובילים בתל אביב.",
       "המשרד מתמחה בשיווק נכסים ופרויקטים במרכז תל אביב, לצד טיפול בנכסים ייחודיים ובלעדיים ברחבי גוש דן.",
-      "הצוות שלנו בינלאומי, מנוסה ומקצועי, בעל ניסיון רב בעסקאות עם תושבי חוץ, משקיעים ולקוחות פרטיים מהארץ ומהעולם.",
-      "אנו מקפידים על שירות מקצועי, אמין ויעיל, שקיפות מלאה, ליווי אישי וחיסכון משמעותי בזמן ובטרחה.",
-      "בנוסף לפעילות התיווך, משרדנו מעניק שירותי ניהול והשכרה לטווח קצר באמצעות SHORTY, וכן השכרה וניהול נכסים לטווח ארוך."
+      "הצוות שלנו בינלאומי, מנוסה ומקצועי, בעל ניסיון רב בעסקאות עם תושבי חוץ, משקיעים ולקוחות פרטיים מהארץ ומהעולם. הצוות דובר עברית, אנגלית וצרפתית, והמשרד משתתף ומפרסם באופן שוטף בתערוכות נדל״ן בינלאומיות.",
+      "אנו מאמינים כי רכישת או מכירת נכס היא אחת ההחלטות החשובות ביותר בחיי לקוחותינו. לכן אנו מקפידים על שירות מקצועי, אמין ויעיל, שקיפות מלאה, ליווי אישי וחיסכון משמעותי בזמן ובטרחה.",
+      "בנוסף לפעילות התיווך, משרדנו מעניק שירותי ניהול והשכרה לטווח קצר באמצעות חברת SHORTY, כולל טיפול מלא מרגע קבלת הנכס, ריהוטו, הכנתו לאורחים וניהול שוטף.",
+      "כמו כן משרדנו מטפל בהשכרה ובניהול נכסים לטווח ארוך.",
+      "נשמח לעמוד לשירותכם, ללוות אתכם לאורך הדרך ולחלוק עמכם מהידע והניסיון הרב שצברנו — ללא כל התחייבות מצדכם."
     ],
     aboutSign: "צוות נדל״ן לב תל אביב",
     neighEyebrow: "שכונות",
     neighTitle: "אזורים נבחרים בתל אביב",
     neighText: "נווה צדק · רוטשילד ולב TLV · הצפון הישן",
-    neighborhoodCards: [
-      { title: "נווה צדק", text: "השכונה הראשונה של תל אביב. בתים קסומים, בוטיקים ואווירה היסטורית ייחודית.", image: "/images/neve.jpg" },
-      { title: "רוטשילד ולב TLV", text: "הלב התרבותי והעסקי של העיר. באוהאוס, שדרות ירוקות וחיים אורבניים מלאי אנרגיה.", image: "/images/rothschild.jpg" },
-      { title: "הצפון הישן", text: "רחובות שקטים ונוף ירוק. שילוב מדויק של נוחות, קהילה וקרבה לים.", image: "/images/oldnorth.jpg" }
-    ],
     offEyebrow: "גישה לנכסים דיסקרטיים",
     offTitle: "נבחר. לא מפורסם.",
-    offText: "חלק מהנכסים המבוקשים ביותר בתל אביב אינם מתפרסמים לציבור. זה לא לוח מודעות. זו גישה.",
+    offText:
+      "חלק מהנכסים המבוקשים ביותר בתל אביב אינם מתפרסמים לציבור. זה לא לוח מודעות. זו גישה.",
     contactEyebrow: "צור קשר",
     contactTitle: "בואו נדבר על תל אביב",
     contactText: "ליווי דיסקרטי לקונים, משקיעים, בעלי נכסים ותושבי חוץ.",
@@ -154,10 +151,15 @@ export default function HomePage() {
           <a href="#neighborhoods">{t.navNeighborhoods}</a>
           <a href="#contact">{t.navContact}</a>
         </nav>
+
         <div className="nav-actions">
           <div className="lang-switch">
             {["en", "fr", "he"].map((code) => (
-              <button key={code} className={lang === code ? "active" : ""} onClick={() => setLang(code)}>
+              <button
+                key={code}
+                className={lang === code ? "active" : ""}
+                onClick={() => setLang(code)}
+              >
                 {code.toUpperCase()}
               </button>
             ))}
@@ -167,6 +169,7 @@ export default function HomePage() {
       </header>
 
       <section className="hero">
+        <img className="hero-bg" src="/images/hero.svg" alt="Luxury Tel Aviv skyline" />
         <div className="hero-content">
           <div className="eyebrow">{t.eyebrow}</div>
           <h1>{t.heroTitle}</h1>
@@ -189,7 +192,9 @@ export default function HomePage() {
               <p><strong>{t.aboutSign}</strong></p>
             </div>
           </div>
-          <div className="about-visual" />
+          <div className="image-card">
+            <img src="/images/about.svg" alt="Luxury Tel Aviv real estate advisory" />
+          </div>
         </div>
       </section>
 
@@ -197,19 +202,20 @@ export default function HomePage() {
         <div className="container center">
           <div className="eyebrow">{t.neighEyebrow}</div>
           <h2>{t.neighTitle}</h2>
-          <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>{t.neighText}</p>
-
-          <div className="neighborhood-grid">
-            {t.neighborhoodCards.map((item) => (
-              <article className="neighborhood-card" key={item.title}>
-                <img src={item.image} alt={item.title} />
-                <div className="neighborhood-card-text">
-                  <h3>{item.title}</h3>
-                  <div className="small-line"></div>
-                  <p>{item.text}</p>
-                </div>
-              </article>
-            ))}
+          <p className="muted" style={{maxWidth:"760px",margin:"0 auto 40px",lineHeight:"1.8"}}>
+            {t.neighText}
+          </p>
+          <div style={{
+            borderRadius:"28px",
+            overflow:"hidden",
+            border:"1px solid rgba(216,180,106,.22)",
+            boxShadow:"0 30px 80px rgba(0,0,0,.35)"
+          }}>
+            <img
+              src="/images/neighborhoods-ai.png"
+              alt="Tel Aviv Neighborhoods"
+              style={{width:"100%",display:"block"}}
+            />
           </div>
         </div>
       </section>
@@ -227,11 +233,13 @@ export default function HomePage() {
           <div className="eyebrow">{t.contactEyebrow}</div>
           <h2>{t.contactTitle}</h2>
           <p className="muted">{t.contactText}</p>
+
           <div className="contact-lines">
             <div>{t.office}: {address[lang]}</div>
             <div>{t.officePhone}: {officePhone}</div>
             <div>WhatsApp: +972 52 660 4099</div>
           </div>
+
           <form className="form">
             <input className="input" placeholder={t.name} />
             <input className="input" placeholder={t.phone} />
